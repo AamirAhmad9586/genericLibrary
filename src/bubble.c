@@ -6,7 +6,7 @@
 void bubbleSort(void *ptr,int collectionSize,int elementSize,int (*pointerToFunction)(void*,void*))
 {
 void *a,*b,*c;
-c=(void*)malloc(collectionSize);
+c=(void*)malloc(elementSize);
 int e,f,m;
 m=collectionSize-2;
 while(m>=0)

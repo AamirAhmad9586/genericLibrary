@@ -6,7 +6,7 @@
 void selectionSort(void *ptr,int collectionSize,int elementSize,int (*pointerToFunction)(void*,void*))
 {
 void *a,*b,*c;
-c=(void*)malloc(collectionSize);
+c=(void*)malloc(elementSize);
 int e,f,m;
 e=0;
 while(e<=(collectionSize-2))
