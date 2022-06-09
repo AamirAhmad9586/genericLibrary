@@ -15,6 +15,8 @@ m=e;
 f=e+1;
 while(f<=(collectionSize-1))
 {
+a=ptr+(m*elementSize);
+b=ptr+(f*elementSize);
 if(pointerToFunction(b,a)<0)
 {
 m=f;
